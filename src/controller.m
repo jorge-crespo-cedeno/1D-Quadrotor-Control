@@ -7,11 +7,6 @@ function [ u ] = pd_controller(~, s, s_des, params)
 
 % FILL IN YOUR CODE HERE
 
-e = s_des(1) - s(1);
-e_dot = s_des(2) - s(2);
-Kp = 1000;
-Kv = 90;
-
-u = params.mass*(0 + Kp*e + Kv*e_dot + params.gravity);
+% Code not available for public view, if you would like to see it, please let me know
 
 end
